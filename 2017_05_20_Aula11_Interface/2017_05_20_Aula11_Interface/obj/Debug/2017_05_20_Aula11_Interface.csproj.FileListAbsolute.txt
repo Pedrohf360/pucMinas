@@ -1,0 +1,12 @@
+c:\users\home\documents\visual studio 2017\Projects\2017_05_20_Aula11_Interface\2017_05_20_Aula11_Interface\bin\Debug\2017_05_20_Aula11_Interface.exe.config
+c:\users\home\documents\visual studio 2017\Projects\2017_05_20_Aula11_Interface\2017_05_20_Aula11_Interface\bin\Debug\2017_05_20_Aula11_Interface.exe
+c:\users\home\documents\visual studio 2017\Projects\2017_05_20_Aula11_Interface\2017_05_20_Aula11_Interface\bin\Debug\2017_05_20_Aula11_Interface.pdb
+c:\users\home\documents\visual studio 2017\Projects\2017_05_20_Aula11_Interface\2017_05_20_Aula11_Interface\obj\Debug\2017_05_20_Aula11_Interface.csprojResolveAssemblyReference.cache
+c:\users\home\documents\visual studio 2017\Projects\2017_05_20_Aula11_Interface\2017_05_20_Aula11_Interface\obj\Debug\2017_05_20_Aula11_Interface.exe
+c:\users\home\documents\visual studio 2017\Projects\2017_05_20_Aula11_Interface\2017_05_20_Aula11_Interface\obj\Debug\2017_05_20_Aula11_Interface.pdb
+C:\Users\Pedrohf360\Desktop\2017_05_20_Aula11_Interface\2017_05_20_Aula11_Interface\bin\Debug\2017_05_20_Aula11_Interface.exe.config
+C:\Users\Pedrohf360\Desktop\2017_05_20_Aula11_Interface\2017_05_20_Aula11_Interface\obj\Debug\2017_05_20_Aula11_Interface.exe
+C:\Users\Pedrohf360\Desktop\2017_05_20_Aula11_Interface\2017_05_20_Aula11_Interface\obj\Debug\2017_05_20_Aula11_Interface.pdb
+C:\Users\Pedrohf360\Desktop\2017_05_20_Aula11_Interface\2017_05_20_Aula11_Interface\obj\Debug\2017_05_20_Aula11_Interface.csprojResolveAssemblyReference.cache
+C:\Users\Pedrohf360\Desktop\2017_05_20_Aula11_Interface\2017_05_20_Aula11_Interface\bin\Debug\2017_05_20_Aula11_Interface.exe
+C:\Users\Pedrohf360\Desktop\2017_05_20_Aula11_Interface\2017_05_20_Aula11_Interface\bin\Debug\2017_05_20_Aula11_Interface.pdb
