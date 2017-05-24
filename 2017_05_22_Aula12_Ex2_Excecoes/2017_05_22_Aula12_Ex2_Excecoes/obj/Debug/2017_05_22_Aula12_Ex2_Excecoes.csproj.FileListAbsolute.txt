@@ -1,0 +1,9 @@
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\bin\Debug\2017_05_22_Aula12_Ex2_Excecoes.exe.config
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\bin\Debug\2017_05_22_Aula12_Ex2_Excecoes.exe
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\bin\Debug\2017_05_22_Aula12_Ex2_Excecoes.pdb
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\obj\Debug\2017_05_22_Aula12_Ex2_Excecoes.csprojResolveAssemblyReference.cache
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\obj\Debug\_2017_05_22_Aula12_Ex2_Excecoes.Form1.resources
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\obj\Debug\_2017_05_22_Aula12_Ex2_Excecoes.Properties.Resources.resources
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\obj\Debug\2017_05_22_Aula12_Ex2_Excecoes.csproj.GenerateResource.Cache
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\obj\Debug\2017_05_22_Aula12_Ex2_Excecoes.exe
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\obj\Debug\2017_05_22_Aula12_Ex2_Excecoes.pdb

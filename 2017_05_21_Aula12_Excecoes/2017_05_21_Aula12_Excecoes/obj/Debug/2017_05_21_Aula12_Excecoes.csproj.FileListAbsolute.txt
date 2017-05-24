@@ -1,0 +1,6 @@
+c:\users\pedrohf360\documents\visual studio 2012\Projects\2017_05_21_Aula12_Excecoes\2017_05_21_Aula12_Excecoes\bin\Debug\2017_05_21_Aula12_Excecoes.exe.config
+c:\users\pedrohf360\documents\visual studio 2012\Projects\2017_05_21_Aula12_Excecoes\2017_05_21_Aula12_Excecoes\obj\Debug\2017_05_21_Aula12_Excecoes.csprojResolveAssemblyReference.cache
+c:\users\pedrohf360\documents\visual studio 2012\Projects\2017_05_21_Aula12_Excecoes\2017_05_21_Aula12_Excecoes\bin\Debug\2017_05_21_Aula12_Excecoes.exe
+c:\users\pedrohf360\documents\visual studio 2012\Projects\2017_05_21_Aula12_Excecoes\2017_05_21_Aula12_Excecoes\bin\Debug\2017_05_21_Aula12_Excecoes.pdb
+c:\users\pedrohf360\documents\visual studio 2012\Projects\2017_05_21_Aula12_Excecoes\2017_05_21_Aula12_Excecoes\obj\Debug\2017_05_21_Aula12_Excecoes.exe
+c:\users\pedrohf360\documents\visual studio 2012\Projects\2017_05_21_Aula12_Excecoes\2017_05_21_Aula12_Excecoes\obj\Debug\2017_05_21_Aula12_Excecoes.pdb

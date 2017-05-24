@@ -1,0 +1,5 @@
+C:\Users\Pedrohf360\documents\visual studio 2012\Projects\2017_05_21_Aula12_Excecoes\2017_05_21_Aula12_Excecoes\bin\Debug\2017_05_21_Aula12_Excecoes.exe.config
+C:\Users\Pedrohf360\documents\visual studio 2012\Projects\2017_05_21_Aula12_Excecoes\2017_05_21_Aula12_Excecoes\bin\Debug\2017_05_21_Aula12_Excecoes.exe
+C:\Users\Pedrohf360\documents\visual studio 2012\Projects\2017_05_21_Aula12_Excecoes\2017_05_21_Aula12_Excecoes\bin\Debug\2017_05_21_Aula12_Excecoes.pdb
+C:\Users\Pedrohf360\documents\visual studio 2012\Projects\2017_05_21_Aula12_Excecoes\2017_05_21_Aula12_Excecoes\obj\Debug\2017_05_21_Aula12_Excecoes.exe
+C:\Users\Pedrohf360\documents\visual studio 2012\Projects\2017_05_21_Aula12_Excecoes\2017_05_21_Aula12_Excecoes\obj\Debug\2017_05_21_Aula12_Excecoes.pdb

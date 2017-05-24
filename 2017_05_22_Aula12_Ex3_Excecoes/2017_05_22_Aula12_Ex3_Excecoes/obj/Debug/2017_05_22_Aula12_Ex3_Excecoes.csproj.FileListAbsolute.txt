@@ -1,0 +1,6 @@
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex3_Excecoes\2017_05_22_Aula12_Ex3_Excecoes\bin\Debug\2017_05_22_Aula12_Ex3_Excecoes.exe.config
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex3_Excecoes\2017_05_22_Aula12_Ex3_Excecoes\bin\Debug\2017_05_22_Aula12_Ex3_Excecoes.exe
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex3_Excecoes\2017_05_22_Aula12_Ex3_Excecoes\bin\Debug\2017_05_22_Aula12_Ex3_Excecoes.pdb
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex3_Excecoes\2017_05_22_Aula12_Ex3_Excecoes\obj\Debug\2017_05_22_Aula12_Ex3_Excecoes.exe
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex3_Excecoes\2017_05_22_Aula12_Ex3_Excecoes\obj\Debug\2017_05_22_Aula12_Ex3_Excecoes.pdb
+C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex3_Excecoes\2017_05_22_Aula12_Ex3_Excecoes\obj\Debug\2017_05_22_Aula12_Ex3_Excecoes.csprojResolveAssemblyReference.cache
