@@ -7,3 +7,12 @@ C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12
 C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\obj\Debug\2017_05_22_Aula12_Ex2_Excecoes.csproj.GenerateResource.Cache
 C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\obj\Debug\2017_05_22_Aula12_Ex2_Excecoes.exe
 C:\Users\Pedrohf360\Documents\Visual Studio 2012\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\obj\Debug\2017_05_22_Aula12_Ex2_Excecoes.pdb
+D:\Pessoal\Estudos autônomos\C#\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\bin\Debug\2017_05_22_Aula12_Ex2_Excecoes.exe.config
+D:\Pessoal\Estudos autônomos\C#\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\bin\Debug\2017_05_22_Aula12_Ex2_Excecoes.exe
+D:\Pessoal\Estudos autônomos\C#\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\bin\Debug\2017_05_22_Aula12_Ex2_Excecoes.pdb
+D:\Pessoal\Estudos autônomos\C#\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\obj\Debug\2017_05_22_Aula12_Ex2_Excecoes.csprojResolveAssemblyReference.cache
+D:\Pessoal\Estudos autônomos\C#\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\obj\Debug\_2017_05_22_Aula12_Ex2_Excecoes.Form1.resources
+D:\Pessoal\Estudos autônomos\C#\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\obj\Debug\_2017_05_22_Aula12_Ex2_Excecoes.Properties.Resources.resources
+D:\Pessoal\Estudos autônomos\C#\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\obj\Debug\2017_05_22_Aula12_Ex2_Excecoes.csproj.GenerateResource.Cache
+D:\Pessoal\Estudos autônomos\C#\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\obj\Debug\2017_05_22_Aula12_Ex2_Excecoes.exe
+D:\Pessoal\Estudos autônomos\C#\pucMinas-2017\2017_05_22_Aula12_Ex2_Excecoes\2017_05_22_Aula12_Ex2_Excecoes\obj\Debug\2017_05_22_Aula12_Ex2_Excecoes.pdb

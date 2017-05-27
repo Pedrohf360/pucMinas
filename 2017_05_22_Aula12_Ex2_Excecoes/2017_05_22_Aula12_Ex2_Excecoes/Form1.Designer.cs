@@ -47,9 +47,11 @@
             this.tbVisor.Size = new System.Drawing.Size(474, 80);
             this.tbVisor.TabIndex = 0;
             this.tbVisor.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.tbVisor.TextChanged += new System.EventHandler(this.MudancaTexto);
             // 
             // btSoma
             // 
+            this.btSoma.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSoma.Location = new System.Drawing.Point(2, 88);
             this.btSoma.Name = "btSoma";
             this.btSoma.Size = new System.Drawing.Size(119, 53);
@@ -60,6 +62,7 @@
             // 
             // btSubtracao
             // 
+            this.btSubtracao.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btSubtracao.Location = new System.Drawing.Point(127, 88);
             this.btSubtracao.Name = "btSubtracao";
             this.btSubtracao.Size = new System.Drawing.Size(119, 53);
@@ -70,6 +73,7 @@
             // 
             // btDivisao
             // 
+            this.btDivisao.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btDivisao.Location = new System.Drawing.Point(252, 88);
             this.btDivisao.Name = "btDivisao";
             this.btDivisao.Size = new System.Drawing.Size(119, 53);
@@ -80,6 +84,7 @@
             // 
             // btMultiplicacao
             // 
+            this.btMultiplicacao.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btMultiplicacao.Location = new System.Drawing.Point(2, 146);
             this.btMultiplicacao.Name = "btMultiplicacao";
             this.btMultiplicacao.Size = new System.Drawing.Size(185, 53);
@@ -90,6 +95,7 @@
             // 
             // btModulo
             // 
+            this.btModulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btModulo.Location = new System.Drawing.Point(193, 146);
             this.btModulo.Name = "btModulo";
             this.btModulo.Size = new System.Drawing.Size(178, 53);
@@ -100,6 +106,7 @@
             // 
             // btIgualdade
             // 
+            this.btIgualdade.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btIgualdade.Location = new System.Drawing.Point(377, 87);
             this.btIgualdade.Name = "btIgualdade";
             this.btIgualdade.Size = new System.Drawing.Size(100, 112);
