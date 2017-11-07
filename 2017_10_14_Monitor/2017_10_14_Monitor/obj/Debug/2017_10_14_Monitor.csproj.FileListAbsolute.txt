@@ -1,6 +1,0 @@
-C:\Users\Home\Desktop\2017_10_14_Monitor\2017_10_14_Monitor\bin\Debug\2017_10_14_Monitor.exe.config
-C:\Users\Home\Desktop\2017_10_14_Monitor\2017_10_14_Monitor\bin\Debug\2017_10_14_Monitor.exe
-C:\Users\Home\Desktop\2017_10_14_Monitor\2017_10_14_Monitor\bin\Debug\2017_10_14_Monitor.pdb
-C:\Users\Home\Desktop\2017_10_14_Monitor\2017_10_14_Monitor\obj\Debug\2017_10_14_Monitor.csprojResolveAssemblyReference.cache
-C:\Users\Home\Desktop\2017_10_14_Monitor\2017_10_14_Monitor\obj\Debug\2017_10_14_Monitor.exe
-C:\Users\Home\Desktop\2017_10_14_Monitor\2017_10_14_Monitor\obj\Debug\2017_10_14_Monitor.pdb
