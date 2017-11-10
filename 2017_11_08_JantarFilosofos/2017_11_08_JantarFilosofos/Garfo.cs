@@ -9,7 +9,6 @@ namespace _2017_11_08_JantarFilosofos
     class Garfo
     {
         int garfoDir;
-
         int garfoEsq;
 
         public int GarfoEsq
