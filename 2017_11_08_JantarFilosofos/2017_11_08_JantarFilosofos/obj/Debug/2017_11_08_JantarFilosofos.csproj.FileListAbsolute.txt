@@ -1,0 +1,6 @@
+C:\pucMinas-2017\2017_11_08_JantarFilosofos\2017_11_08_JantarFilosofos\bin\Debug\2017_11_08_JantarFilosofos.exe.config
+C:\pucMinas-2017\2017_11_08_JantarFilosofos\2017_11_08_JantarFilosofos\bin\Debug\2017_11_08_JantarFilosofos.exe
+C:\pucMinas-2017\2017_11_08_JantarFilosofos\2017_11_08_JantarFilosofos\bin\Debug\2017_11_08_JantarFilosofos.pdb
+C:\pucMinas-2017\2017_11_08_JantarFilosofos\2017_11_08_JantarFilosofos\obj\Debug\2017_11_08_JantarFilosofos.csprojResolveAssemblyReference.cache
+C:\pucMinas-2017\2017_11_08_JantarFilosofos\2017_11_08_JantarFilosofos\obj\Debug\2017_11_08_JantarFilosofos.exe
+C:\pucMinas-2017\2017_11_08_JantarFilosofos\2017_11_08_JantarFilosofos\obj\Debug\2017_11_08_JantarFilosofos.pdb

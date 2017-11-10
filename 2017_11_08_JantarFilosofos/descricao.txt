@@ -1,0 +1,6 @@
+Platão: garfo 5 (direita) e garfo 1 (esquerda)
+Aristóteles: garfo 1 (direita) e garfo 2 (esquerda)
+Sócrates: garfo 2 e garfo 3
+Descartes: garfo 3 e garfo 4
+Euclides: garfo 4 e garfo 5
+
