@@ -5,3 +5,7 @@ Descartes: garfo 3 e garfo 4
 Euclides: garfo 4 e garfo 5
 
 https://www.youtube.com/watch?v=IiRsHz-aCmI
+https://www.revista-programar.info/artigos/threads-semaforos-e-deadlocks-o-jantar-dos-filosofos/3/
+
+http://www.guj.com.br/t/problema-com-monitores/135570/2
+https://www.youtube.com/watch?v=L0beC76j-kA

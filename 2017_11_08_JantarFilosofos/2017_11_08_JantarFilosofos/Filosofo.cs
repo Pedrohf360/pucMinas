@@ -28,36 +28,38 @@ namespace _2017_11_08_JantarFilosofos
 
         public void Comer()
         {
-            int esquerda, direita;
-
-            esquerda = garfos.SortearGarfoEsq();
-            direita = garfos.SortearGarfoDir();
-
-            if (esquerda == cc)
+            while (true)
             {
-                Console.WriteLine("O filósofo " + this.nome + " pegou o garfo " + this.garfoDir);
-
-                if (esquerda == this.)
+                if (garfos.GarfoDir == 5)
                 {
-                    Console.WriteLine("O filósofo " + this.nome + " pegou o garfo " + this.garfoEsq);
-                    Console.WriteLine("O filósofo " + this.nome + " está comendo...");
-                    Thread.Sleep(1000);
-                    Console.WriteLine("O filósofo " + this.nome + " largou o garfo da direita.");
-                    Console.WriteLine("O filósofo " + this.nome + " largou o garfo da esquerda.");
+                    Console.WriteLine("O filósofo " + this.nome + " pegou o garfo " + garfos.GarfoDir);
+
+                    if (garfos.GarfoEsq == 1)
+                    {
+                        Console.WriteLine("O filósofo " + this.nome + " pegou o garfo " + garfos.GarfoEsq);
+                        Console.WriteLine("O filósofo " + this.nome + " está comendo...");
+                        Thread.Sleep(1000);
+                        Console.WriteLine("O filósofo " + this.nome + " largou o garfo da direita.");
+                        Console.WriteLine("O filósofo " + this.nome + " largou o garfo da esquerda.");
+                    }
+                    else
+                    {
+                        Console.WriteLine("O filósofo " + this.nome + " largou o garfo " + garfos.GarfoDir);
+                    }
                 }
                 else
                 {
-                    Console.WriteLine("O filósofo " + this.nome + " largou o garfo " + esquerda);
-                }
-            } else {
-                try
-                {
-                    Pensar();
-                } catch (ThreadInterruptedException ex)
-                {
-                    Console.WriteLine(ex.Message);
+                    try
+                    {
+                        Pensar();
+                    }
+                    catch (ThreadInterruptedException ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
                 }
             }
+            
         }
     }
 }

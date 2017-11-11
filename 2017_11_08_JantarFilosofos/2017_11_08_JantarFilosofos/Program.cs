@@ -11,14 +11,26 @@ namespace _2017_11_08_JantarFilosofos
     {
         static void Main(string[] args)
         {
+            /* Será feito o seguinte: Um método que sorteie 2 filófos para comer por ver. Para pegarem os garfos e começarem a comer, será usado um semáforo
+             * semaph.WaitOne() ... (2 comendo)... semaph.Release()...
+             * */
+
             Semaphore semaph = new Semaphore(1, 1);
 
+            Garfo[] garfos = new Garfo[5];
+
+            garfos[0] = new Garfo(1, 2);
+            garfos[1] = new Garfo(2, 3);
+            garfos[2] = new Garfo(3, 4);
+            garfos[3] = new Garfo(4, 5);
+            garfos[4] = new Garfo(5, 1);
+
             Filosofo[] filosofos = new Filosofo[5];
-            filosofos[0] = new Filosofo("Platão", 1, 5);
-            filosofos[1] = new Filosofo("Aristóteles", 2, 1);
-            filosofos[2] = new Filosofo("Sócrates", 3, 2);
-            filosofos[3] = new Filosofo("Descartes", 4, 3);
-            filosofos[4] = new Filosofo("Euclides", 5, 4);
+            filosofos[0] = new Filosofo("Platão", garfos[0]);
+            filosofos[1] = new Filosofo("Aristóteles", garfos[1]);
+            filosofos[2] = new Filosofo("Sócrates", garfos[2]);
+            filosofos[3] = new Filosofo("Descartes", garfos[3]);
+            filosofos[4] = new Filosofo("Euclides", garfos[4]);
 
             Thread[] threads = new Thread[5];
 
