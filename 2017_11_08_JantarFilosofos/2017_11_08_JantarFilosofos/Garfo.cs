@@ -27,13 +27,16 @@ namespace _2017_11_08_JantarFilosofos
                 if (this.ocupado)
                 {
                     Console.ForegroundColor = ConsoleColor.Blue;
-                    Console.WriteLine("O Filósofo " + Thread.CurrentThread.Name + " está aguardando para usar o garfo {0}. " + this.Posicao);
+                    Console.WriteLine("\nO Filósofo " + Thread.CurrentThread.Name + " está aguardando para usar o garfo {0}. ", this.posicao + ".");
                     Console.ResetColor();
 
                     Monitor.Wait(this);
                 }
 
+                Console.ResetColor();
                 this.ocupado = true;
+
+                Console.WriteLine("\nO Filósofo " + Thread.CurrentThread.Name + " pegou o garfo " + this.posicao + ".");
 
                 Monitor.Pulse(this);
 
@@ -42,41 +45,26 @@ namespace _2017_11_08_JantarFilosofos
                 return this.posicao;
             }
         }
-    
-        public bool Ocupado { get => ocupado; set => ocupado = value; }
 
+        public bool Ocupado
+        {
+            get
+            {
+                return ocupado;
+            }
 
-        //public void SortearGarfoDir()
-        //{
-        //    Random r = new Random();
+            set
+            {
+                Monitor.Enter(this);
 
-        //    this.garfoDir = r.Next(1, 5);
-        //}
+                this.ocupado = value;
 
-        //public void SortearGarfoEsq()
-        //{
-        //    Random r = new Random();
+                Console.ResetColor();
+                Console.WriteLine("\nO Filósofo " + Thread.CurrentThread.Name + " largou o garfo " + this.posicao + ".");
 
-        //    this.garfoEsq = r.Next(1, 5);
-        //}
-
-        //public void SortearGarfos()
-        //{
-        //    while (true)
-        //    {
-        //        try
-        //        {
-        //            SortearGarfoDir();
-        //            SortearGarfoEsq();
-        //            Thread.Sleep(1000);
-        //        } 
-        //        catch (ThreadInterruptedException ex)
-        //        {
-        //            Console.ForegroundColor = ConsoleColor.Red;
-        //            Console.WriteLine(ex.Message);
-        //            Console.ResetColor();
-        //        }
-        //    }
-        //}
+                Monitor.Pulse(this);
+                Monitor.Exit(this);
+            }
+        }
     }
 }

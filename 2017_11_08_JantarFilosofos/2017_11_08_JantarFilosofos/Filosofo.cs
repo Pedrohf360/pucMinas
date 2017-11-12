@@ -29,70 +29,43 @@ namespace _2017_11_08_JantarFilosofos
 
             this.r = r;
 
-            Console.WriteLine("O Filósofo {0} sentou-se à mesa na posição {1}.", this.nome, this.posMesa);
+            Console.WriteLine("O Filósofo {0} sentou-se à mesa na posicao {1}.", this.nome, this.posMesa);
         }
 
         public void Pensar()
         {
-            Console.WriteLine("O Filósofo " + this.nome + " está pensando.");
+            Console.ResetColor();
+            Console.WriteLine("\nO Filósofo " + this.nome + " está pensando.");
             Thread.Sleep(r.Next(300, 500));   
         }
 
         public void Comer()
         {
-            int[] garfo = new int[2];
+            int verifDisponDir;
+            int verifDisponEsq;
 
             while (true)
             {
+                Pensar();
+                verifDisponEsq = GarfoEsq.Posicao;
+                verifDisponDir = GarfoDir.Posicao;
 
-                garfo[0] = this.r.Next(this.garfoDir.Posicao, this.garfoDir.Posicao); // Direita
-                garfo[1] = this.r.Next(this.garfoDir.Posicao, this.garfoEsq.Posicao); // Esquerda
-
-                if (this.GarfoDir.Posicao == garfo[0])
+                if (verifDisponDir != 0 && verifDisponEsq != 0)
                 {
-                    if (this.GarfoDir.Ocupado)
-                    {
-                        Console.ForegroundColor = ConsoleColor.Blue;
-                        Console.WriteLine("O Filósofo {0} está aguardando para usar o garfo ", this.GarfoDir.Posicao);
-                        Console.ResetColor();
-                    }
-
-                    this.GarfoDir.Ocupado = true;
-
-                    Console.WriteLine("O Filósofo " + this.Nome + " pegou o garfo " + this.GarfoDir.Posicao);
-
-                    if (this.GarfoEsq.Posicao == garfo[1])
-                    {
-                        if (this.GarfoEsq.Ocupado)
-                        {
-                            Console.ForegroundColor = ConsoleColor.Blue;
-                            Console.WriteLine("O Filósofo {0} está aguardando para usar o garfo ", this.GarfoEsq.Posicao);
-                            Console.ResetColor();
-                        }
-
-                        this.GarfoEsq.Ocupado = true;
-
-                        Console.WriteLine("O Filósofo " + this.Nome + " pegou o garfo " + this.GarfoEsq.Posicao);
-
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine("O Filósofo " + this.Nome + " está comendo...");
-                        Console.ResetColor();
-                        Thread.Sleep(this.r.Next(1000, 2000));
-                        Console.WriteLine("O Filósofo " + this.Nome + " largou o garfo da direita.");
-                        Console.WriteLine("O Filósofo " + this.Nome + " largou o garfo da esquerda.");
-                        this.GarfoDir.Ocupado = false;
-                        this.GarfoEsq.Ocupado = false;
-                    }
-                    else
-                    {
-                        Console.WriteLine("O Filósofo " + this.Nome + " largou o garfo " + this.GarfoDir.Posicao);
-                        this.GarfoDir.Ocupado = false;
-                    }
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine("\nO Filósofo " + this.nome + " está comendo.");
+                    Console.ResetColor();
                 }
-                else
-                {
-                    this.Pensar();
-                }
+
+                Thread.Sleep(this.r.Next(1000, 2000));
+
+                garfoDir.Ocupado = false;
+                garfoEsq.Ocupado = false;
+                verifDisponEsq = 0;
+                verifDisponDir = 0;
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("\nO Filósofo " + this.nome + " terminou de comer.");
+                Console.ResetColor();
             }
         }
     }

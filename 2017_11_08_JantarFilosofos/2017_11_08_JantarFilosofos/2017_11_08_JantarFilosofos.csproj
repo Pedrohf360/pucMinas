@@ -43,7 +43,6 @@
   <ItemGroup>
     <Compile Include="Filosofo.cs" />
     <Compile Include="Garfo.cs" />
-    <Compile Include="MesaJantar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
