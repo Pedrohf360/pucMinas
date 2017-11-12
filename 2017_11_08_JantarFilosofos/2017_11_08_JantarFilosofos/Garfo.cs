@@ -9,62 +9,50 @@ namespace _2017_11_08_JantarFilosofos
 {
     class Garfo
     {
-        int garfoDir;
-        int garfoEsq;
-        bool garfoDirOcupado;
-        bool garfoEsqOcupado;
+        int posicao;
+        bool ocupado;
 
-        public Garfo(int garfoDir, int garfoEsq)
+        public Garfo(int pos)
         {
-            this.garfoDir = garfoDir;
-            this.garfoEsq = garfoEsq;
-            this.garfoDirOcupado = false;
-            this.garfoEsqOcupado = false;
+            this.posicao = pos;
+            this.ocupado = false;
         }
 
-        public void SortearGarfos()
-        {
-            while (true)
-            {
-                try
-                {
-                    SortearGarfoDir();
-                    SortearGarfoEsq();
-                    Thread.Sleep(1000);
-                } 
-                catch (ThreadInterruptedException ex)
-                {
-                    Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine(ex.Message);
-                    Console.ResetColor();
-                }
-            }
-        }
+        public int Posicao { get => posicao; set => posicao = value; }
+        public bool Ocupado { get => ocupado; set => ocupado = value; }
 
-        public void SortearGarfoDir()
-        {
-            Random r = new Random();
 
-            this.garfoDir = r.Next(1, 5);
-        }
+        //public void SortearGarfoDir()
+        //{
+        //    Random r = new Random();
 
-        public void SortearGarfoEsq()
-        {
-            Random r = new Random();
+        //    this.garfoDir = r.Next(1, 5);
+        //}
 
-            this.garfoEsq = r.Next(1, 5);
-        }
+        //public void SortearGarfoEsq()
+        //{
+        //    Random r = new Random();
 
-        public int GarfoEsq
-        {
-            get { return garfoEsq; }
-            set { garfoEsq = value; }
-        }
+        //    this.garfoEsq = r.Next(1, 5);
+        //}
 
-        public int GarfoDir
-        {
-            get { return garfoDir; }
-            set { garfoDir = value; }
-        }
+        //public void SortearGarfos()
+        //{
+        //    while (true)
+        //    {
+        //        try
+        //        {
+        //            SortearGarfoDir();
+        //            SortearGarfoEsq();
+        //            Thread.Sleep(1000);
+        //        } 
+        //        catch (ThreadInterruptedException ex)
+        //        {
+        //            Console.ForegroundColor = ConsoleColor.Red;
+        //            Console.WriteLine(ex.Message);
+        //            Console.ResetColor();
+        //        }
+        //    }
+        //}
     }
 }

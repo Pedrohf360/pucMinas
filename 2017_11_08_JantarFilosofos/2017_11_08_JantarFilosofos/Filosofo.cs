@@ -10,20 +10,27 @@ namespace _2017_11_08_JantarFilosofos
     class Filosofo
     {
         string nome;
-        Garfo garfos;
+        int posMesa;
+        Garfo garfoEsq;
+        Garfo garfoDir;
+        Random r = new Random(); // O filósofo irá comer e pensar por períodos de tempo randômico
 
-        public Filosofo(string nome, Garfo garfos)
+        public Filosofo(string nome, int posMesa, Garfo garfoDir, Garfo garfoEsq, Random r)
         {
             this.nome = nome;
-            this.garfos = garfos;
+            this.posMesa = posMesa;
+            this.garfoDir = garfoDir;
+            this.garfoEsq = garfoEsq;
 
-            Console.WriteLine("O filósofo " + this.nome + " sentou-se à mesa.");
+            this.r = r;
+
+            Console.WriteLine("O filósofo {0} sentou-se à mesa na posição {1}.+", this.nome, this.posMesa);
         }
 
         public void Pensar()
         {
             Console.WriteLine("O filósofo " + this.nome + " está pensando.");
-            Thread.Sleep(1000);   
+            Thread.Sleep(r.Next(300, 500));   
         }
 
         public void Comer()
@@ -38,7 +45,7 @@ namespace _2017_11_08_JantarFilosofos
                     {
                         Console.WriteLine("O filósofo " + this.nome + " pegou o garfo " + garfos.GarfoEsq);
                         Console.WriteLine("O filósofo " + this.nome + " está comendo...");
-                        Thread.Sleep(1000);
+                        Thread.Sleep(r.Next(500, 800));
                         Console.WriteLine("O filósofo " + this.nome + " largou o garfo da direita.");
                         Console.WriteLine("O filósofo " + this.nome + " largou o garfo da esquerda.");
                     }

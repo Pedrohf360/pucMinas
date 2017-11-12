@@ -11,9 +11,12 @@ namespace _2017_11_08_JantarFilosofos
     {
         static void Main(string[] args)
         {
-            /* Será feito o seguinte: Um método que sorteie 2 filófos para comer por ver. Para pegarem os garfos e começarem a comer, será usado um semáforo
-             * semaph.WaitOne() ... (2 comendo)... semaph.Release()...
-             * */
+            Console.WriteLine("\t------------Monitor - Jantar dos Filósofos------------");
+            Console.WriteLine("\nGRUPO:\tNOME:\t\t\tMATRICULA:" +
+                            "\n\tPedro Henrique\t\t580544" +
+                            "\n\tLucas Gomes\t\t578927" +
+                            "\n\tHenrique Kirschke\t573948" +
+                            "\n\tItalo Fabricio\t\t573962\n");
 
             Semaphore semaph = new Semaphore(1, 1);
 
