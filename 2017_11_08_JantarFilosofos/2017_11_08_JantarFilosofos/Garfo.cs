@@ -18,7 +18,31 @@ namespace _2017_11_08_JantarFilosofos
             this.ocupado = false;
         }
 
-        public int Posicao { get => posicao; set => posicao = value; }
+        public int Posicao
+        {
+            get
+            {
+                Monitor.Enter(this);
+
+                if (this.ocupado)
+                {
+                    Console.ForegroundColor = ConsoleColor.Blue;
+                    Console.WriteLine("O Filósofo " + Thread.CurrentThread.Name + " está aguardando para usar o garfo {0}. " + this.Posicao);
+                    Console.ResetColor();
+
+                    Monitor.Wait(this);
+                }
+
+                this.ocupado = true;
+
+                Monitor.Pulse(this);
+
+                Monitor.Exit(this);
+
+                return this.posicao;
+            }
+        }
+    
         public bool Ocupado { get => ocupado; set => ocupado = value; }
 
 

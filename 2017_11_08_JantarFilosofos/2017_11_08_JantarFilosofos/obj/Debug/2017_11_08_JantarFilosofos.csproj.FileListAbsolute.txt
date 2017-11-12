@@ -5,3 +5,9 @@ C:\pucMinas-2017\2017_11_08_JantarFilosofos\2017_11_08_JantarFilosofos\obj\Debug
 C:\pucMinas-2017\2017_11_08_JantarFilosofos\2017_11_08_JantarFilosofos\obj\Debug\2017_11_08_JantarFilosofos.exe
 C:\pucMinas-2017\2017_11_08_JantarFilosofos\2017_11_08_JantarFilosofos\obj\Debug\2017_11_08_JantarFilosofos.pdb
 C:\pucMinas-2017\2017_11_08_JantarFilosofos\2017_11_08_JantarFilosofos\obj\Debug\2017_11_08_JantarFilosofos.csproj.CoreCompileInputs.cache
+C:\Users\Home\Documents\GitHub\pucMinas-2017\2017_11_08_JantarFilosofos\2017_11_08_JantarFilosofos\bin\Debug\2017_11_08_JantarFilosofos.exe.config
+C:\Users\Home\Documents\GitHub\pucMinas-2017\2017_11_08_JantarFilosofos\2017_11_08_JantarFilosofos\bin\Debug\2017_11_08_JantarFilosofos.exe
+C:\Users\Home\Documents\GitHub\pucMinas-2017\2017_11_08_JantarFilosofos\2017_11_08_JantarFilosofos\bin\Debug\2017_11_08_JantarFilosofos.pdb
+C:\Users\Home\Documents\GitHub\pucMinas-2017\2017_11_08_JantarFilosofos\2017_11_08_JantarFilosofos\obj\Debug\2017_11_08_JantarFilosofos.csprojResolveAssemblyReference.cache
+C:\Users\Home\Documents\GitHub\pucMinas-2017\2017_11_08_JantarFilosofos\2017_11_08_JantarFilosofos\obj\Debug\2017_11_08_JantarFilosofos.exe
+C:\Users\Home\Documents\GitHub\pucMinas-2017\2017_11_08_JantarFilosofos\2017_11_08_JantarFilosofos\obj\Debug\2017_11_08_JantarFilosofos.pdb
