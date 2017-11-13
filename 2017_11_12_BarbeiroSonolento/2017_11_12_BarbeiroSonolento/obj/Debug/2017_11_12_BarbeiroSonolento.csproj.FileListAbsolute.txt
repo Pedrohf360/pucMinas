@@ -1,0 +1,6 @@
+c:\users\home\documents\visual studio 2017\Projects\2017_11_12_BarbeiroSonolento\2017_11_12_BarbeiroSonolento\bin\Debug\2017_11_12_BarbeiroSonolento.exe.config
+c:\users\home\documents\visual studio 2017\Projects\2017_11_12_BarbeiroSonolento\2017_11_12_BarbeiroSonolento\bin\Debug\2017_11_12_BarbeiroSonolento.exe
+c:\users\home\documents\visual studio 2017\Projects\2017_11_12_BarbeiroSonolento\2017_11_12_BarbeiroSonolento\bin\Debug\2017_11_12_BarbeiroSonolento.pdb
+c:\users\home\documents\visual studio 2017\Projects\2017_11_12_BarbeiroSonolento\2017_11_12_BarbeiroSonolento\obj\Debug\2017_11_12_BarbeiroSonolento.csprojResolveAssemblyReference.cache
+c:\users\home\documents\visual studio 2017\Projects\2017_11_12_BarbeiroSonolento\2017_11_12_BarbeiroSonolento\obj\Debug\2017_11_12_BarbeiroSonolento.exe
+c:\users\home\documents\visual studio 2017\Projects\2017_11_12_BarbeiroSonolento\2017_11_12_BarbeiroSonolento\obj\Debug\2017_11_12_BarbeiroSonolento.pdb
