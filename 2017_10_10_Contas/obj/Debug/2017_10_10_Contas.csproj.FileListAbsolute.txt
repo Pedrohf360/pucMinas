@@ -1,0 +1,73 @@
+C:\Users\1045301.PUCMINAS\Desktop\2017_10_10_Contas\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.exe.config
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.exe.config
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.exe.config
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.exe
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.pdb
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.csprojResolveAssemblyReference.cache
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\2017_10_10_Contas\obj\Debug\_2017_10_10_Contas.ContaForm.resources
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\2017_10_10_Contas\obj\Debug\_2017_10_10_Contas.Properties.Resources.resources
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.csproj.GenerateResource.Cache
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.exe
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.pdb
+C:\Users\1045301\Downloads\2017_10_10_Contas\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.exe.config
+C:\Users\1045301\Downloads\2017_10_10_Contas\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.exe
+C:\Users\1045301\Downloads\2017_10_10_Contas\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.pdb
+C:\Users\1045301\Downloads\2017_10_10_Contas\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.exe
+C:\Users\1045301\Downloads\2017_10_10_Contas\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.pdb
+C:\Users\1045301\Downloads\2017_10_10_Contas\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.csprojResolveAssemblyReference.cache
+C:\Users\1045301\Downloads\2017_10_10_Contas\2017_10_10_Contas\obj\Debug\_2017_10_10_Contas.ContaForm.resources
+C:\Users\1045301\Downloads\2017_10_10_Contas\2017_10_10_Contas\obj\Debug\_2017_10_10_Contas.Properties.Resources.resources
+C:\Users\1045301\Downloads\2017_10_10_Contas\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.csproj.GenerateResource.Cache
+C:\Users\1045301\Downloads\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.exe.config
+C:\Users\1045301\Downloads\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.exe
+C:\Users\1045301\Downloads\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.pdb
+C:\Users\1045301\Downloads\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.csprojResolveAssemblyReference.cache
+C:\Users\1045301\Downloads\2017_10_10_Contas\obj\Debug\_2017_10_10_Contas.ContaForm.resources
+C:\Users\1045301\Downloads\2017_10_10_Contas\obj\Debug\_2017_10_10_Contas.Properties.Resources.resources
+C:\Users\1045301\Downloads\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.csproj.GenerateResource.Cache
+C:\Users\1045301\Downloads\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.exe
+C:\Users\1045301\Downloads\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.pdb
+C:\Users\Home\Desktop\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.exe.config
+C:\Users\Home\Desktop\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.exe
+C:\Users\Home\Desktop\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.pdb
+C:\Users\Home\Desktop\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.csprojResolveAssemblyReference.cache
+C:\Users\Home\Desktop\2017_10_10_Contas\obj\Debug\_2017_10_10_Contas.ContaForm.resources
+C:\Users\Home\Desktop\2017_10_10_Contas\obj\Debug\_2017_10_10_Contas.Properties.Resources.resources
+C:\Users\Home\Desktop\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.csproj.GenerateResource.Cache
+C:\Users\Home\Desktop\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.exe
+C:\Users\Home\Desktop\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.pdb
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.exe.config
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.exe
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.pdb
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.csprojResolveAssemblyReference.cache
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\obj\Debug\_2017_10_10_Contas.ContaForm.resources
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\obj\Debug\_2017_10_10_Contas.Properties.Resources.resources
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.csproj.GenerateResource.Cache
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.exe
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.pdb
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\bin\Debug\mscorlib.dll
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\bin\Debug\pt-BR\mscorlib.resources.dll
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\bin\Debug\normidna.nlp
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\bin\Debug\normnfc.nlp
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\bin\Debug\normnfd.nlp
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\bin\Debug\normnfkc.nlp
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\bin\Debug\normnfkd.nlp
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas (1)\obj\Debug\2017_10_10_Contas.csprojResolveAssemblyReference.cache
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas (1)\obj\Debug\_2017_10_10_Contas.ContaForm.resources
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas (1)\obj\Debug\_2017_10_10_Contas.Properties.Resources.resources
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas (1)\obj\Debug\2017_10_10_Contas.csproj.GenerateResource.Cache
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas (1)\obj\Debug\2017_10_10_Contas.csproj.CoreCompileInputs.cache
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas (1)\obj\Debug\2017_10_10_Contas.exe
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas (1)\obj\Debug\2017_10_10_Contas.pdb
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas (1)\bin\Debug\2017_10_10_Contas.exe.config
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas (1)\bin\Debug\2017_10_10_Contas.exe
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas (1)\bin\Debug\2017_10_10_Contas.pdb
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.csprojResolveAssemblyReference.cache
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\obj\Debug\_2017_10_10_Contas.ContaForm.resources
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\obj\Debug\_2017_10_10_Contas.Properties.Resources.resources
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.csproj.GenerateResource.Cache
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.exe
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\obj\Debug\2017_10_10_Contas.pdb
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.exe.config
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.exe
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_10_Contas\bin\Debug\2017_10_10_Contas.pdb
