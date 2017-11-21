@@ -1,0 +1,53 @@
+C:\Users\1045301\Desktop\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.exe.config
+C:\Users\1045301\Desktop\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.exe
+C:\Users\1045301\Desktop\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.pdb
+C:\Users\1045301\Desktop\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.csprojResolveAssemblyReference.cache
+C:\Users\1045301\Desktop\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Form1.resources
+C:\Users\1045301\Desktop\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Properties.Resources.resources
+C:\Users\1045301\Desktop\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.csproj.GenerateResource.Cache
+C:\Users\1045301\Desktop\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.exe
+C:\Users\1045301\Desktop\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.pdb
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.exe.config
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.exe
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.pdb
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.exe
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.pdb
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\mscorlib.dll
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\pt-BR\mscorlib.resources.dll
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\normidna.nlp
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\normnfc.nlp
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\normnfd.nlp
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\normnfkc.nlp
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\normnfkd.nlp
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.csprojResolveAssemblyReference.cache
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Form1.resources
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Properties.Resources.resources
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.csproj.GenerateResource.Cache
+C:\Users\1045301\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.exe.config
+C:\Users\1045301\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.exe
+C:\Users\1045301\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.pdb
+C:\Users\1045301\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.exe
+C:\Users\1045301\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.pdb
+C:\Users\1045301\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.csprojResolveAssemblyReference.cache
+C:\Users\1045301\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Form1.resources
+C:\Users\1045301\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Properties.Resources.resources
+C:\Users\1045301\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.csproj.GenerateResource.Cache
+C:\Users\1045301.PUCMINAS\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.exe.config
+C:\Users\1045301.PUCMINAS\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.exe
+C:\Users\1045301.PUCMINAS\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.pdb
+C:\Users\1045301.PUCMINAS\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.exe
+C:\Users\1045301.PUCMINAS\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.pdb
+C:\Users\1045301.PUCMINAS\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.csprojResolveAssemblyReference.cache
+C:\Users\1045301.PUCMINAS\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Form1.resources
+C:\Users\1045301.PUCMINAS\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Properties.Resources.resources
+C:\Users\1045301.PUCMINAS\Downloads\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.csproj.GenerateResource.Cache
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao (1)\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.csprojResolveAssemblyReference.cache
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao (1)\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Form1.resources
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao (1)\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Properties.Resources.resources
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao (1)\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.csproj.GenerateResource.Cache
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao (1)\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.csproj.CoreCompileInputs.cache
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao (1)\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.exe
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao (1)\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.pdb
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao (1)\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.exe.config
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao (1)\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.exe
+C:\Users\murdock\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao (1)\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.pdb

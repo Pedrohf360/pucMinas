@@ -1,0 +1,9 @@
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.exe.config
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.exe
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\bin\Debug\2017_10_31_BolhaInsercao.pdb
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_Ordenacao.csprojResolveAssemblyReference.cache
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Form1.resources
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Properties.Resources.resources
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_Ordenacao.csproj.GenerateResource.Cache
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.exe
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.pdb
