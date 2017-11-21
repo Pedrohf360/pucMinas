@@ -7,3 +7,9 @@ C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exerc�
 C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_Ordenacao.csproj.GenerateResource.Cache
 C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.exe
 C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\2017_10_31_BolhaInsercao.pdb
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Insercao.resources
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Bolha.resources
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Merge.resources
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Quick.resources
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Selecao.resources
+C:\Users\Home\Google Drive\Faculdade\3° período\Matérias_Cursos\LABAED\Exercícios\2017_10_31_BolhaInsercao\2017_10_31_BolhaInsercao\obj\Debug\_2017_10_31_BolhaInsercao.Opcao.resources

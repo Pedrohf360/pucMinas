@@ -1,0 +1,1 @@
+5;5,8;6;577670;100000;Vetor Decrescente

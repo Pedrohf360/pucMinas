@@ -31,8 +31,8 @@
             this.tituloLbl = new System.Windows.Forms.Label();
             this.gerarVetorBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.listBox = new System.Windows.Forms.ListBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.desordenadaListBox = new System.Windows.Forms.ListBox();
+            this.ordenadaListBox = new System.Windows.Forms.ListBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -49,6 +49,8 @@
             this.bolhaBtn = new System.Windows.Forms.Button();
             this.quickBtn = new System.Windows.Forms.Button();
             this.mergeBtn = new System.Windows.Forms.Button();
+            this.quantTestesLbl = new System.Windows.Forms.Label();
+            this.testesAntBtn = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -56,7 +58,7 @@
             // 
             this.tituloLbl.AutoSize = true;
             this.tituloLbl.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tituloLbl.Location = new System.Drawing.Point(9, 14);
+            this.tituloLbl.Location = new System.Drawing.Point(9, 10);
             this.tituloLbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.tituloLbl.Name = "tituloLbl";
             this.tituloLbl.Size = new System.Drawing.Size(161, 36);
@@ -67,7 +69,7 @@
             // 
             this.gerarVetorBtn.BackColor = System.Drawing.Color.Red;
             this.gerarVetorBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gerarVetorBtn.Location = new System.Drawing.Point(172, 164);
+            this.gerarVetorBtn.Location = new System.Drawing.Point(186, 164);
             this.gerarVetorBtn.Margin = new System.Windows.Forms.Padding(4);
             this.gerarVetorBtn.Name = "gerarVetorBtn";
             this.gerarVetorBtn.Size = new System.Drawing.Size(199, 113);
@@ -80,38 +82,38 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(155, 129);
+            this.label1.Location = new System.Drawing.Point(169, 129);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(241, 25);
             this.label1.TabIndex = 5;
             this.label1.Text = "THE BIG RED BUTTON";
             // 
-            // listBox
+            // desordenadaListBox
             // 
-            this.listBox.FormattingEnabled = true;
-            this.listBox.ItemHeight = 16;
-            this.listBox.Location = new System.Drawing.Point(27, 337);
-            this.listBox.Margin = new System.Windows.Forms.Padding(4);
-            this.listBox.Name = "listBox";
-            this.listBox.Size = new System.Drawing.Size(320, 260);
-            this.listBox.TabIndex = 10;
+            this.desordenadaListBox.FormattingEnabled = true;
+            this.desordenadaListBox.ItemHeight = 16;
+            this.desordenadaListBox.Location = new System.Drawing.Point(27, 337);
+            this.desordenadaListBox.Margin = new System.Windows.Forms.Padding(4);
+            this.desordenadaListBox.Name = "desordenadaListBox";
+            this.desordenadaListBox.Size = new System.Drawing.Size(320, 260);
+            this.desordenadaListBox.TabIndex = 10;
             // 
-            // listBox1
+            // ordenadaListBox
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(361, 337);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(320, 260);
-            this.listBox1.TabIndex = 11;
+            this.ordenadaListBox.FormattingEnabled = true;
+            this.ordenadaListBox.ItemHeight = 16;
+            this.ordenadaListBox.Location = new System.Drawing.Point(361, 337);
+            this.ordenadaListBox.Margin = new System.Windows.Forms.Padding(4);
+            this.ordenadaListBox.Name = "ordenadaListBox";
+            this.ordenadaListBox.Size = new System.Drawing.Size(320, 260);
+            this.ordenadaListBox.TabIndex = 11;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(27, 305);
+            this.label2.Location = new System.Drawing.Point(66, 305);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(258, 25);
@@ -122,7 +124,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(359, 305);
+            this.label3.Location = new System.Drawing.Point(406, 305);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(214, 25);
@@ -133,7 +135,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(533, 76);
+            this.label6.Location = new System.Drawing.Point(533, 65);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(16, 20);
@@ -142,7 +144,7 @@
             // 
             // maskedTextBox3
             // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(559, 71);
+            this.maskedTextBox3.Location = new System.Drawing.Point(559, 60);
             this.maskedTextBox3.Margin = new System.Windows.Forms.Padding(4);
             this.maskedTextBox3.Mask = "0000000";
             this.maskedTextBox3.Name = "maskedTextBox3";
@@ -151,7 +153,7 @@
             // 
             // maskedTextBox4
             // 
-            this.maskedTextBox4.Location = new System.Drawing.Point(459, 71);
+            this.maskedTextBox4.Location = new System.Drawing.Point(459, 60);
             this.maskedTextBox4.Margin = new System.Windows.Forms.Padding(4);
             this.maskedTextBox4.Mask = "0000000";
             this.maskedTextBox4.Name = "maskedTextBox4";
@@ -162,7 +164,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(28, 73);
+            this.label7.Location = new System.Drawing.Point(28, 62);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(362, 20);
@@ -220,7 +222,7 @@
             // insercaoBtn
             // 
             this.insercaoBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.insercaoBtn.Location = new System.Drawing.Point(380, 166);
+            this.insercaoBtn.Location = new System.Drawing.Point(394, 166);
             this.insercaoBtn.Margin = new System.Windows.Forms.Padding(4);
             this.insercaoBtn.Name = "insercaoBtn";
             this.insercaoBtn.Size = new System.Drawing.Size(105, 50);
@@ -246,7 +248,7 @@
             // selecaoBtn
             // 
             this.selecaoBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.selecaoBtn.Location = new System.Drawing.Point(378, 224);
+            this.selecaoBtn.Location = new System.Drawing.Point(392, 224);
             this.selecaoBtn.Margin = new System.Windows.Forms.Padding(4);
             this.selecaoBtn.Name = "selecaoBtn";
             this.selecaoBtn.Size = new System.Drawing.Size(107, 49);
@@ -258,7 +260,7 @@
             // bolhaBtn
             // 
             this.bolhaBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.bolhaBtn.Location = new System.Drawing.Point(493, 166);
+            this.bolhaBtn.Location = new System.Drawing.Point(506, 166);
             this.bolhaBtn.Margin = new System.Windows.Forms.Padding(4);
             this.bolhaBtn.Name = "bolhaBtn";
             this.bolhaBtn.Size = new System.Drawing.Size(105, 50);
@@ -270,7 +272,7 @@
             // quickBtn
             // 
             this.quickBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quickBtn.Location = new System.Drawing.Point(491, 224);
+            this.quickBtn.Location = new System.Drawing.Point(505, 224);
             this.quickBtn.Margin = new System.Windows.Forms.Padding(4);
             this.quickBtn.Name = "quickBtn";
             this.quickBtn.Size = new System.Drawing.Size(107, 49);
@@ -283,7 +285,7 @@
             // 
             this.mergeBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.mergeBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.mergeBtn.Location = new System.Drawing.Point(607, 154);
+            this.mergeBtn.Location = new System.Drawing.Point(621, 154);
             this.mergeBtn.Margin = new System.Windows.Forms.Padding(4);
             this.mergeBtn.Name = "mergeBtn";
             this.mergeBtn.Size = new System.Drawing.Size(37, 142);
@@ -292,11 +294,32 @@
             this.mergeBtn.UseVisualStyleBackColor = true;
             this.mergeBtn.Click += new System.EventHandler(this.mergeBtn_Click);
             // 
+            // quantTestesLbl
+            // 
+            this.quantTestesLbl.AutoSize = true;
+            this.quantTestesLbl.Location = new System.Drawing.Point(428, 129);
+            this.quantTestesLbl.Name = "quantTestesLbl";
+            this.quantTestesLbl.Size = new System.Drawing.Size(0, 17);
+            this.quantTestesLbl.TabIndex = 33;
+            // 
+            // testesAntBtn
+            // 
+            this.testesAntBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.testesAntBtn.Location = new System.Drawing.Point(16, 91);
+            this.testesAntBtn.Name = "testesAntBtn";
+            this.testesAntBtn.Size = new System.Drawing.Size(141, 55);
+            this.testesAntBtn.TabIndex = 34;
+            this.testesAntBtn.Text = "Ver testes anteriores";
+            this.testesAntBtn.UseVisualStyleBackColor = true;
+            this.testesAntBtn.Click += new System.EventHandler(this.testesAntBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(698, 613);
+            this.Controls.Add(this.testesAntBtn);
+            this.Controls.Add(this.quantTestesLbl);
             this.Controls.Add(this.mergeBtn);
             this.Controls.Add(this.bolhaBtn);
             this.Controls.Add(this.quickBtn);
@@ -309,8 +332,8 @@
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.listBox);
+            this.Controls.Add(this.ordenadaListBox);
+            this.Controls.Add(this.desordenadaListBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gerarVetorBtn);
             this.Controls.Add(this.tituloLbl);
@@ -329,8 +352,8 @@
         private System.Windows.Forms.Label tituloLbl;
         private System.Windows.Forms.Button gerarVetorBtn;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.ListBox listBox;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox desordenadaListBox;
+        private System.Windows.Forms.ListBox ordenadaListBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label6;
@@ -347,6 +370,8 @@
         private System.Windows.Forms.Button bolhaBtn;
         private System.Windows.Forms.Button quickBtn;
         private System.Windows.Forms.Button mergeBtn;
+        private System.Windows.Forms.Label quantTestesLbl;
+        private System.Windows.Forms.Button testesAntBtn;
     }
 }
 

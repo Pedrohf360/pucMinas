@@ -1,0 +1,1 @@
+1;1,4;2;99990;10000;Vetor Decrescente

@@ -1,0 +1,1 @@
+1;1,6;3;426190;10000;Vetor quase ordenado
