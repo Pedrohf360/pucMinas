@@ -35,8 +35,8 @@ namespace _2017_10_31_BolhaInsercao
             this.nomeArq = nomeArq;
             this.tipoVetorOrd = tipoVetorOrd;
 
-            tamanhoVetorLbl.Text = "Tamanho vetor = " + this.tamanhoVetor;
-            vetorOrdLbl.Text = "Tipo vetor ordenado = " + this.tipoVetorOrd;
+            tamanhoVetorLbl.Text = "Tam. vetor = " + this.tamanhoVetor;
+            vetorOrdLbl.Text = "Ordenação =  = " + this.tipoVetorOrd;
             PreencherTabela();
         }
 
@@ -77,8 +77,8 @@ namespace _2017_10_31_BolhaInsercao
             item.SubItems.Add(vetorArq[3]);
 
             this.tamanhoVetor = int.Parse(vetorArq[4]);
-            tamanhoVetorLbl.Text = "Tamanho vetor = " + this.tamanhoVetor;
-            vetorOrdLbl.Text = "Tipo vetor ordenado = " + vetorArq[5];
+            tamanhoVetorLbl.Text = "Tam. vetor = " + this.tamanhoVetor;
+            vetorOrdLbl.Text = "Ordenação =  = " + vetorArq[5];
 
             listView1.Items.Add(item);
         }

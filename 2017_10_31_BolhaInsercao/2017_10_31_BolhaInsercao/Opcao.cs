@@ -12,6 +12,8 @@ namespace _2017_10_31_BolhaInsercao
 {
     public partial class Opcao : Form
     {
+        List<Form> tiposOrdenacao = new List<Form>();
+
         Insercao[] ins = new Insercao[8];
         Bolha[] bolha = new Bolha[8];
         Merge[] merge = new Merge[16];
@@ -20,10 +22,104 @@ namespace _2017_10_31_BolhaInsercao
 
         public Opcao()
         {
+            this.StartPosition = FormStartPosition.CenterScreen;
+
+            InstanciarObjs();
+
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+            foreach (Bolha i in bolha)
+                tiposOrdenacao.Add(i);
+
+            ExibirFormsOrdenacao();
+        }
+
+        private void ExibirFormsOrdenacao()
+        {
+            int x, y, contPosJanelas = 1;
+            int screenSizeX, screenSizeY;
+
+            this.tiposOrdenacao[0].Show();
+            this.tiposOrdenacao[0].SetDesktopLocation(10, 10);
+
+            x = this.tiposOrdenacao[0].Location.X;
+            y = this.tiposOrdenacao[0].Size.Height;
+
+            screenSizeX = Screen.PrimaryScreen.Bounds.Width;
+            screenSizeY = Screen.PrimaryScreen.Bounds.Height-200;
+
+            
+
+            for (int i = 1; i < this.tiposOrdenacao.Count; i++)
+            {
+                this.tiposOrdenacao[i].Show();
+
+                if ((y * contPosJanelas + 10) < screenSizeY)
+                    this.tiposOrdenacao[i].SetDesktopLocation(x, (y * contPosJanelas + 10));
+                else
+                {
+                    x += this.tiposOrdenacao[0].Size.Width + 10;
+                    y = this.tiposOrdenacao[0].Size.Height;
+                    contPosJanelas = 0;
+                    this.tiposOrdenacao[i].SetDesktopLocation(x, 10);
+                }
+                contPosJanelas++;
+            }
+
+            this.tiposOrdenacao[this.tiposOrdenacao.Count - 1].Show();
+        }
+
+        private void FecharFormsOrdenacao()
+        {
+            for (int i = 0; i < this.tiposOrdenacao.Count; i++)
+            {
+                tiposOrdenacao[i].Hide();
+            }
+
+            tiposOrdenacao = new List<Form>();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            foreach (Insercao i in ins)
+                tiposOrdenacao.Add(i);
+
+            ExibirFormsOrdenacao();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            FecharFormsOrdenacao();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            foreach (Selecao i in selecao)
+                tiposOrdenacao.Add(i);
+
+            ExibirFormsOrdenacao();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            foreach (Merge i in merge)
+                tiposOrdenacao.Add(i);
+
+            ExibirFormsOrdenacao();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            foreach (Quick i in quick)
+                tiposOrdenacao.Add(i);
+
+            ExibirFormsOrdenacao();
+        }
+
+        private void InstanciarObjs()
         {
             bolha[0] = new Bolha("..\\..\\arquivos.txt//crescentebolha10mil.txt");
             bolha[1] = new Bolha("..\\..\\arquivos.txt//decrescentebolha10mil.txt");
@@ -35,27 +131,7 @@ namespace _2017_10_31_BolhaInsercao
             bolha[6] = new Bolha("..\\..\\arquivos.txt//quaseOrdbolha100mil.txt");
             bolha[7] = new Bolha("..\\..\\arquivos.txt//aleatoriobolha100mil.txt");
 
-            ExibirFormsOrdenacao(bolha);
-        }
-
-        private void ExibirFormsOrdenacao(Form[] forms)
-        {
-            for (int i = 0; i < forms.Length; i++)
-            {
-                forms[i].Show();
-            }
-        }
-
-        private void FecharFormsOrdenacao(Form[] forms)
-        {
-            for (int i = 0; i < forms.Length; i++)
-            {
-                forms[i].Close();
-            }
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
+            ///////////////////////////////////
             ins[0] = new Insercao("..\\..\\arquivos.txt//crescenteinsercao10mil.txt");
             ins[1] = new Insercao("..\\..\\arquivos.txt//decrescenteinsercao10mil.txt");
             ins[2] = new Insercao("..\\..\\arquivos.txt//quaseOrdinsercao10mil.txt");
@@ -66,16 +142,7 @@ namespace _2017_10_31_BolhaInsercao
             ins[6] = new Insercao("..\\..\\arquivos.txt//quaseOrdinsercao100mil.txt");
             ins[7] = new Insercao("..\\..\\arquivos.txt//aleatorioinsercao100mil.txt");
 
-            ExibirFormsOrdenacao(ins);
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            FecharFormsOrdenacao(ins);
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
+            ////////////////////////
             selecao[0] = new Selecao("..\\..\\arquivos.txt//crescenteselecao10mil.txt");
             selecao[1] = new Selecao("..\\..\\arquivos.txt//decrescenteselecao10mil.txt");
             selecao[2] = new Selecao("..\\..\\arquivos.txt//quaseOrdselecao10mil.txt");
@@ -86,11 +153,8 @@ namespace _2017_10_31_BolhaInsercao
             selecao[6] = new Selecao("..\\..\\arquivos.txt//quaseOrdselecao100mil.txt");
             selecao[7] = new Selecao("..\\..\\arquivos.txt//aleatorioselecao100mil.txt");
 
-            ExibirFormsOrdenacao(selecao);
-        }
 
-        private void button4_Click(object sender, EventArgs e)
-        {
+            ///////////////////////////////
             merge[0] = new Merge("..\\..\\arquivos.txt//crescentemerge10mil.txt");
             merge[1] = new Merge("..\\..\\arquivos.txt//decrescentemerge10mil.txt");
             merge[2] = new Merge("..\\..\\arquivos.txt//quaseOrdmerge10mil.txt");
@@ -111,11 +175,8 @@ namespace _2017_10_31_BolhaInsercao
             merge[14] = new Merge("..\\..\\arquivos.txt//quaseOrdmerge1milhao.txt");
             merge[15] = new Merge("..\\..\\arquivos.txt//aleatoriomerge1milhao.txt");
 
-            ExibirFormsOrdenacao(merge);
-        }
+            //////////////////////
 
-        private void button5_Click(object sender, EventArgs e)
-        {
             quick[0] = new Quick("..\\..\\arquivos.txt//crescentequick10mil.txt");
             quick[1] = new Quick("..\\..\\arquivos.txt//decrescentequick10mil.txt");
             quick[2] = new Quick("..\\..\\arquivos.txt//quaseOrdquick10mil.txt");
@@ -135,8 +196,6 @@ namespace _2017_10_31_BolhaInsercao
             quick[13] = new Quick("..\\..\\arquivos.txt//decrescentequick1milhao.txt");
             quick[14] = new Quick("..\\..\\arquivos.txt//quaseOrdquick1milhao.txt");
             quick[15] = new Quick("..\\..\\arquivos.txt//aleatorioquick1milhao.txt");
-
-            ExibirFormsOrdenacao(quick);
         }
     }
 }
