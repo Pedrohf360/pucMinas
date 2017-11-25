@@ -20,23 +20,22 @@ namespace _2017_10_31_BolhaInsercao
         int contTrocas;
         int limInf, limSup, tamVetor;
         Stopwatch watch = new Stopwatch();
-        int quantTestes;
         double[] valoresTeste;
         double tempoMinimo, tempoMedio, tempoMaximo;
         string nomeArq;
         string nomeArquivosTxt;
         string tipoVetorOrdenado;
+        int contBubble, contInsercao, contMerge, contQuick, contSelecao;
 
         public Form1()
         {
             InitializeComponent();
 
-            quantTestes = 0;
             contComp = 0;
             contTrocas = 0;
             valoresTeste = new double[5];
 
-            quantTestesLbl.Text = "Quantidade de testes = " + quantTestes + "/5";
+            quantTestesLbl.Text = "Quantidade de testes = " + 0 + "/5";
 
             nomeArquivosTxt = "..\\..\\arquivos.txt//";
         }
@@ -79,26 +78,25 @@ namespace _2017_10_31_BolhaInsercao
                         nomeArq = "..\\..\\arquivos.txt//decrescente";
                         tipoVetorOrdenado = "Vetor Decrescente";
                         vetor = PreencheVetor.vetDecrescente(tamVetor, limInf, limSup);
-                    }   
+                    }
                     else if (quaseOrdChckB.Checked)
                     {
                         nomeArq = "..\\..\\arquivos.txt//quaseOrd";
                         tipoVetorOrdenado = "Vetor quase ordenado";
                         vetor = PreencheVetor.quaseOrdenado(tamVetor, limInf, limSup);
-                    }   
+                    }
                     else if (vetAleatChckB.Checked)
                     {
                         nomeArq = "..\\..\\arquivos.txt//aleatorio";
                         tipoVetorOrdenado = "Vetor aleatório";
                         vetor = PreencheVetor.vetAleatorio(tamVetor, limInf, limSup);
-                    }   
+                    }
                     else
                         MessageBox.Show("Selecione alguma das opções para preenchimento do vetor!");
 
                     PreencherListaDesordenada();
 
                     tamVetor++;
-                    quantTestes = 0;
                 }
 
             }
@@ -185,53 +183,56 @@ namespace _2017_10_31_BolhaInsercao
 
         private void insercaoBtn_Click(object sender, EventArgs e)
         {
-                if (vetor != null)
+            if (vetor != null)
+            {
+                vetorAux = new int[vetor.Length];
+
+                vetor.CopyTo(vetorAux, 0);
+
+                if (tamVetor != 0)
                 {
-                    if (quantTestes == 0)
+                    watch.Start();
+                    Ordenacao.InsertionSort(vetor);
+                    watch.Stop();
+
+                    valoresTeste[contInsercao] = watch.ElapsedMilliseconds;
+
+                    watch.Reset();
+
+                    contInsercao++;
+
+                    quantTestesLbl.Text = "Quantidade de testes = " + contInsercao + "/5";
+
+                    PreencherListaOrdenada();
+
+                    if (contInsercao == 5)
+                    {
+                        string nomeArqAux = nomeArq;
+
                         nomeArq += "insercao.txt";
 
-                    vetorAux = new int[vetor.Length];
+                        DefinirTempoMinimo();
+                        DefinirTempoMedio();
+                        DefinirTempoMaximo();
 
-                    vetor.CopyTo(vetorAux, 0);
+                        EscreverArquivo(nomeArq);
 
-                    if (tamVetor != 0)
-                    {
-                        watch.Start();
-                        Ordenacao.InsertionSort(vetor);
-                        watch.Stop();
+                        Insercao ins = new Insercao(tempoMinimo, tempoMedio, tempoMaximo, Ordenacao.QuantComp, tamVetor, nomeArq, tipoVetorOrdenado);
 
-                        valoresTeste[quantTestes] = watch.ElapsedMilliseconds;
+                        ins.Show();
 
-                        watch.Reset();
+                        Ordenacao.QuantComp = 0;
+                        valoresTeste = new double[5];
+                        contInsercao = 0;
+                        quantTestesLbl.Text = "Quantidade de testes = " + contInsercao + "/5";
 
-                        quantTestes++;
-
-                        quantTestesLbl.Text = "Quantidade de testes = " + quantTestes + "/5";
-
-                        PreencherListaOrdenada();
-
-                        if (quantTestes == 5)
-                        {
-                            DefinirTempoMinimo();
-                            DefinirTempoMedio();
-                            DefinirTempoMaximo();
-
-                            EscreverArquivo(nomeArq);
-
-                            Insercao ins = new Insercao(tempoMinimo, tempoMedio, tempoMaximo, Ordenacao.QuantComp, tamVetor, nomeArq, tipoVetorOrdenado);
-
-                            ins.Show();
-
-                            Ordenacao.QuantComp = 0;
-                            valoresTeste = new double[5];
-                            quantTestes = 0;
-                            quantTestesLbl.Text = "Quantidade de testes = " + quantTestes + "/5";
-                        }
+                        nomeArq = nomeArqAux;
                     }
-
-                    vetor = vetorAux;
                 }
-            
+
+                vetor = vetorAux;
+            }
+
         }
 
         private void PreencherListaDesordenada()
@@ -293,121 +294,121 @@ namespace _2017_10_31_BolhaInsercao
             }
         }
 
-        
+
         private void bolhaBtn_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < 5; i++)
+            if (vetor != null)
             {
-                if (vetor != null)
+                vetorAux = new int[vetor.Length];
+
+                vetor.CopyTo(vetorAux, 0);
+
+                if (tamVetor != 0)
                 {
-                    if (quantTestes == 0)
+                    watch.Start();
+                    Ordenacao.bubbleSort(vetor);
+                    watch.Stop();
+
+                    valoresTeste[contBubble] = watch.ElapsedMilliseconds;
+
+                    watch.Reset();
+
+                    contBubble++;
+
+                    quantTestesLbl.Text = "Quantidade de testes = " + contBubble + "/5";
+
+                    PreencherListaOrdenada();
+
+                    if (contBubble == 5)
+                    {
+                        string nomeArqAux = nomeArq;
+
                         nomeArq += "bolha.txt";
 
-                    vetorAux = new int[vetor.Length];
+                        DefinirTempoMinimo();
+                        DefinirTempoMedio();
+                        DefinirTempoMaximo();
 
-                    vetor.CopyTo(vetorAux, 0);
+                        EscreverArquivo(nomeArq);
 
-                    if (tamVetor != 0)
-                    {
-                        watch.Start();
-                        Ordenacao.bubbleSort(vetor);
-                        watch.Stop();
+                        Bolha ins = new Bolha(tempoMinimo, tempoMedio, tempoMaximo, Ordenacao.QuantComp, tamVetor, nomeArq, tipoVetorOrdenado);
 
-                        valoresTeste[quantTestes] = watch.ElapsedMilliseconds;
+                        ins.Show();
 
-                        watch.Reset();
+                        Ordenacao.QuantComp = 0;
+                        valoresTeste = new double[5];
+                        contBubble = 0;
+                        quantTestesLbl.Text = "Quantidade de testes = " + contBubble + "/5";
 
-                        quantTestes++;
-
-                        quantTestesLbl.Text = "Quantidade de testes = " + quantTestes + "/5";
-
-                        PreencherListaOrdenada();
-
-                        if (quantTestes == 5)
-                        {
-                            DefinirTempoMinimo();
-                            DefinirTempoMedio();
-                            DefinirTempoMaximo();
-
-                            EscreverArquivo(nomeArq);
-
-                            Bolha ins = new Bolha(tempoMinimo, tempoMedio, tempoMaximo, Ordenacao.QuantComp, tamVetor, nomeArq, tipoVetorOrdenado);
-
-                            ins.Show();
-
-                            Ordenacao.QuantComp = 0;
-                            valoresTeste = new double[5];
-                            quantTestes = 0;
-                            quantTestesLbl.Text = "Quantidade de testes = " + quantTestes + "/5";
-                        }
+                        nomeArq = nomeArqAux;
                     }
-
-                    vetor = vetorAux;
                 }
+
+                vetor = vetorAux;
             }
+
         }
 
 
         private void selecaoBtn_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < 5; i++)
+
+            if (vetor != null)
             {
-                if (vetor != null)
+                vetorAux = new int[vetor.Length];
+
+                vetor.CopyTo(vetorAux, 0);
+
+                if (tamVetor != 0)
                 {
-                    if (quantTestes == 0)
+                    watch.Start();
+                    Ordenacao.selectionSort(vetor);
+                    watch.Stop();
+
+                    valoresTeste[contSelecao] = watch.ElapsedMilliseconds;
+
+                    watch.Reset();
+
+                    contSelecao++;
+
+                    quantTestesLbl.Text = "Quantidade de testes = " + contSelecao + "/5";
+
+                    PreencherListaOrdenada();
+
+                    if (contSelecao == 5)
+                    {
+                        string nomeArqAux = nomeArq;
+
                         nomeArq += "selecao.txt";
 
-                    vetorAux = new int[vetor.Length];
+                        DefinirTempoMinimo();
+                        DefinirTempoMedio();
+                        DefinirTempoMaximo();
 
-                    vetor.CopyTo(vetorAux, 0);
+                        EscreverArquivo(nomeArq);
 
-                    if (tamVetor != 0)
-                    {
-                        watch.Start();
-                        Ordenacao.selectionSort(vetor);
-                        watch.Stop();
+                        Selecao ins = new Selecao(tempoMinimo, tempoMedio, tempoMaximo, Ordenacao.QuantComp, tamVetor, nomeArq, tipoVetorOrdenado);
 
-                        valoresTeste[quantTestes] = watch.ElapsedMilliseconds;
+                        ins.Show();
 
-                        watch.Reset();
-
-                        quantTestes++;
-
-                        quantTestesLbl.Text = "Quantidade de testes = " + quantTestes + "/5";
-
-                        PreencherListaOrdenada();
-
-                        if (quantTestes == 5)
-                        {
-                            DefinirTempoMinimo();
-                            DefinirTempoMedio();
-                            DefinirTempoMaximo();
-
-                            EscreverArquivo(nomeArq);
-
-                            Selecao ins = new Selecao(tempoMinimo, tempoMedio, tempoMaximo, Ordenacao.QuantComp, tamVetor, nomeArq, tipoVetorOrdenado);
-
-                            ins.Show();
-
-                            Ordenacao.QuantComp = 0;
-                            valoresTeste = new double[5];
-                            quantTestes = 0;
-                            quantTestesLbl.Text = "Quantidade de testes = " + quantTestes + "/5";
-                        }
+                        Ordenacao.QuantComp = 0;
+                        valoresTeste = new double[5];
+                        contSelecao = 0;
+                        quantTestesLbl.Text = "Quantidade de testes = " + contSelecao + "/5";
+                        nomeArq = nomeArqAux;
                     }
-
-                    vetor = vetorAux;
                 }
+
+                vetor = vetorAux;
             }
+
         }
 
         private void mergeBtn_Click(object sender, EventArgs e)
         {
+
             if (vetor != null)
             {
-                if (quantTestes == 0)
-                    nomeArq += "merge.txt";
-
                 vetorAux = new int[vetor.Length];
 
                 vetor.CopyTo(vetorAux, 0);
@@ -418,18 +419,21 @@ namespace _2017_10_31_BolhaInsercao
                     Ordenacao.MergeSort(vetor);
                     watch.Stop();
 
-                    valoresTeste[quantTestes] = watch.ElapsedMilliseconds;
+                    valoresTeste[contMerge] = watch.ElapsedMilliseconds;
 
                     watch.Reset();
 
-                    quantTestes++;
+                    contMerge++;
 
-                    quantTestesLbl.Text = "Quantidade de testes = " + quantTestes + "/5";
+                    quantTestesLbl.Text = "Quantidade de testes = " + contMerge + "/5";
 
                     PreencherListaOrdenada();
 
-                    if (quantTestes == 5)
+                    if (contMerge == 5)
                     {
+                        string nomeArqAux = nomeArq;
+
+                        nomeArq += "merge.txt";
                         DefinirTempoMinimo();
                         DefinirTempoMedio();
                         DefinirTempoMaximo();
@@ -442,8 +446,10 @@ namespace _2017_10_31_BolhaInsercao
 
                         Ordenacao.QuantComp = 0;
                         valoresTeste = new double[5];
-                        quantTestes = 0;
-                        quantTestesLbl.Text = "Quantidade de testes = " + quantTestes + "/5";
+                        contMerge = 0;
+                        quantTestesLbl.Text = "Quantidade de testes = " + contMerge + "/5";
+
+                        nomeArq = nomeArqAux;
                     }
                 }
 
@@ -455,9 +461,6 @@ namespace _2017_10_31_BolhaInsercao
         {
             if (vetor != null)
             {
-                if (quantTestes == 0)
-                    nomeArq += "quick.txt";
-
                 vetorAux = new int[vetor.Length];
 
                 vetor.CopyTo(vetorAux, 0);
@@ -468,18 +471,21 @@ namespace _2017_10_31_BolhaInsercao
                     Ordenacao.QuickSort_Recursive(vetor, 0, vetor.Length - 1);
                     watch.Stop();
 
-                    valoresTeste[quantTestes] = watch.ElapsedMilliseconds;
+                    valoresTeste[contQuick] = watch.ElapsedMilliseconds;
 
                     watch.Reset();
 
-                    quantTestes++;
+                    contQuick++;
 
-                    quantTestesLbl.Text = "Quantidade de testes = " + quantTestes + "/5";
+                    quantTestesLbl.Text = "Quantidade de testes = " + contQuick + "/5";
 
                     PreencherListaOrdenada();
 
-                    if (quantTestes == 5)
+                    if (contQuick == 5)
                     {
+                        string nomeArqAux = nomeArq;
+
+                        nomeArq += "quick.txt";
                         DefinirTempoMinimo();
                         DefinirTempoMedio();
                         DefinirTempoMaximo();
@@ -492,8 +498,10 @@ namespace _2017_10_31_BolhaInsercao
 
                         Ordenacao.QuantComp = 0;
                         valoresTeste = new double[5];
-                        quantTestes = 0;
-                        quantTestesLbl.Text = "Quantidade de testes = " + quantTestes + "/5";
+                        contQuick = 0;
+                        quantTestesLbl.Text = "Quantidade de testes = " + contQuick + "/5";
+
+                        nomeArq = nomeArqAux;
                     }
                 }
 

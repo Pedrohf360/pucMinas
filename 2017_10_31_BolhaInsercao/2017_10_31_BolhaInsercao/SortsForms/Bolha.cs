@@ -26,12 +26,7 @@ namespace _2017_10_31_BolhaInsercao
         public Bolha(double tempoMinimo, double tempoMedio, double tempoMaximo, long quantComp, int tamanhoVetor, string nomeArq, string tipoVetOrd)
         {
             InitializeComponent();
-
-            this.StartPosition = FormStartPosition.Manual;
-
-            StartPosition = FormStartPosition.WindowsDefaultBounds;
-
-            
+      
 
             this.tempoMinimo = tempoMinimo;
             this.tempoMaximo = tempoMaximo;
