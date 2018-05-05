@@ -1,0 +1,20 @@
+c:\users\1045301\documents\visual studio 2015\Projects\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\bin\Debug\2017_04_17_Algor_Grafos.exe.config
+c:\users\1045301\documents\visual studio 2015\Projects\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\bin\Debug\2017_04_17_Algor_Grafos.exe
+c:\users\1045301\documents\visual studio 2015\Projects\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\bin\Debug\2017_04_17_Algor_Grafos.pdb
+c:\users\1045301\documents\visual studio 2015\Projects\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\obj\Debug\2017_04_17_Algor_Grafos.csprojResolveAssemblyReference.cache
+c:\users\1045301\documents\visual studio 2015\Projects\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\obj\Debug\2017_04_17_Algor_Grafos.exe
+c:\users\1045301\documents\visual studio 2015\Projects\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\obj\Debug\2017_04_17_Algor_Grafos.pdb
+C:\Users\murdock\Downloads\2017_04_17_Algor_Grafos-20180429T001437Z-001\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\obj\Debug\2017_04_17_Algor_Grafos.csprojResolveAssemblyReference.cache
+C:\Users\murdock\Downloads\2017_04_17_Algor_Grafos-20180429T001437Z-001\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\obj\Debug\2017_04_17_Algor_Grafos.csproj.CoreCompileInputs.cache
+C:\Users\murdock\Downloads\2017_04_17_Algor_Grafos-20180429T001437Z-001\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\obj\Debug\2017_04_17_Algor_Grafos.exe
+C:\Users\murdock\Downloads\2017_04_17_Algor_Grafos-20180429T001437Z-001\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\obj\Debug\2017_04_17_Algor_Grafos.pdb
+C:\Users\murdock\Downloads\2017_04_17_Algor_Grafos-20180429T001437Z-001\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\bin\Debug\2017_04_17_Algor_Grafos.exe.config
+C:\Users\murdock\Downloads\2017_04_17_Algor_Grafos-20180429T001437Z-001\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\bin\Debug\2017_04_17_Algor_Grafos.exe
+C:\Users\murdock\Downloads\2017_04_17_Algor_Grafos-20180429T001437Z-001\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\bin\Debug\2017_04_17_Algor_Grafos.pdb
+C:\Users\murdock\Downloads\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\bin\Debug\2017_04_17_Algor_Grafos.exe.config
+C:\Users\murdock\Downloads\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\bin\Debug\2017_04_17_Algor_Grafos.exe
+C:\Users\murdock\Downloads\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\bin\Debug\2017_04_17_Algor_Grafos.pdb
+C:\Users\murdock\Downloads\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\obj\Debug\2017_04_17_Algor_Grafos.csprojResolveAssemblyReference.cache
+C:\Users\murdock\Downloads\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\obj\Debug\2017_04_17_Algor_Grafos.csproj.CoreCompileInputs.cache
+C:\Users\murdock\Downloads\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\obj\Debug\2017_04_17_Algor_Grafos.exe
+C:\Users\murdock\Downloads\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\2017_04_17_Algor_Grafos\obj\Debug\2017_04_17_Algor_Grafos.pdb
