@@ -173,7 +173,7 @@ namespace _2017_04_17_Algor_Grafos
             Aresta arestaAux;
 
             vertAux = origem;
-            arestaAux = vertAux.GetArestaLigacao(destino);
+            arestaAux = vertAux.GetArestaLigacao(destino, null);
             if (arestaAux.VertA != destino && arestaAux.VertB != destino)
             {
                 if (arestaAux.VertA != vertAux)
@@ -189,18 +189,30 @@ namespace _2017_04_17_Algor_Grafos
                 return arestaAux.ToString();
             }
 
-            // Regra de formação
-            GetCaminho(vertAux, null, destino, caminho, null);
+            //for (int i = 0; i < this.aresta.Count; i++)
+            //{
+            //    if (this.aresta[i].VertA.nome == vertice.nome)
+            //        return this.aresta[i];
+
+            //    if (this.aresta[i].VertB.nome == vertice.nome)
+            //        return this.aresta[i];
+            //}
 
             caminho.Add(arestaAux.ToString());
+
+            // Regra de formação
+            GetCaminho(vertAux, null, destino, caminho, index, null);
 
             return arestaAux.ToString();
         }
 
         public bool IsConexo()
         {
+            int pos = 0;
+
             List<string> caminho = new List<string>();
-            this.GetCaminho(this.ListaVertice[0], null, this.ListaVertice[3], caminho);
+            List<Vertice> visitados = new List<Vertice>();
+            this.GetCaminho(this.ListaVertice[0], null, this.ListaVertice[3], caminho, pos, visitados);
 
             return true;
         }

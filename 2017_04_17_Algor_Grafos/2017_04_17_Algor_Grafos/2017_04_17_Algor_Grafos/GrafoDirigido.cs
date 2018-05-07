@@ -75,12 +75,52 @@ namespace _2017_04_17_Algor_Grafos
 
         public int GetGrauEntrada(Vertice v1)
         {
-            return 1;
+            int grauEntrada = 0;
+            v1 = ProcurarVertice(v1);
+
+            if (v1 == null)
+            {
+                return -1;
+            }
+
+            for (int i = 0; i < v1.Adjacente.Count; i++)
+            {
+                for (int j = 0; j < v1.Adjacente[i].Aresta.Count; j++)
+                {
+                    if (v1.Adjacente[i].Aresta[j].VertA == v1 && v1.Adjacente[i].Aresta[j].Direcao == -1 ||
+                        v1.Adjacente[i].Aresta[j].VertB == v1 && v1.Adjacente[i].Aresta[j].Direcao == 1)
+                    {
+                        grauEntrada++;
+                    }
+                }
+            }
+
+            return grauEntrada;
         }
 
         public int GetGrauSaida(Vertice v1)
         {
-            return 1;
+            int grauSaida = 0;
+            v1 = ProcurarVertice(v1);
+
+            if (v1 == null)
+            {
+                return -1;
+            }
+
+            for (int i = 0; i < v1.Adjacente.Count; i++)
+            {
+                for (int j = 0; j < v1.Adjacente[i].Aresta.Count; j++)
+                {
+                    if (v1.Adjacente[i].Aresta[j].VertA == v1 && v1.Adjacente[i].Aresta[j].Direcao == 1 ||
+                        v1.Adjacente[i].Aresta[j].VertB == v1 && v1.Adjacente[i].Aresta[j].Direcao == -1)
+                    {
+                        grauSaida++;
+                    }
+                }
+            }
+
+            return grauSaida;
         }
 
         public bool HasCiclo()

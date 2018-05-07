@@ -189,6 +189,8 @@ namespace _2017_04_17_Algor_Grafos
 
             if (grafoDirecionado)
             {
+                string nomeVert;
+                int grauVertice;
                 do
                 {
                     Console.Clear();
@@ -209,11 +211,27 @@ namespace _2017_04_17_Algor_Grafos
                             ImprimirGrafo(digrafo);
                             break;
                         case 2:
+                            Console.WriteLine("Informe o nome do vértice:");
+                            nomeVert = Console.ReadLine();
 
+                            v1 = new Vertice(nomeVert);
+
+                            grauVertice = digrafo.GetGrauEntrada(v1);
+
+                            resposta = (grauVertice == -1) ? "O vértice não existe!" : "O grau de entrada do vértice é " + grauVertice + ".";
+                            Responder(resposta);
                             break;
 
                         case 3:
+                            Console.WriteLine("Informe o nome do vértice:");
+                            nomeVert = Console.ReadLine();
 
+                            v1 = new Vertice(nomeVert);
+
+                            grauVertice = digrafo.GetGrauSaida(v1);
+
+                            resposta = (grauVertice == -1) ? "O vértice não existe!" : "O grau de saída do vértice é " + grauVertice + ".";
+                            Responder(resposta);
                             break;
 
                         case 4:
