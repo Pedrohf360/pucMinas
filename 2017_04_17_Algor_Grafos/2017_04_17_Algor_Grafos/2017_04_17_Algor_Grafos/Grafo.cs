@@ -39,6 +39,14 @@ namespace _2017_04_17_Algor_Grafos
 
         public bool IsAdjacente(Vertice v1, Vertice v2)
         {
+            v1 = this.ProcurarVertice(v1);
+            v2 = this.ProcurarVertice(v2);
+
+            if (v1 == null || v2 == null)
+            {
+                return false;
+            }
+
             for (int i = 0; i < this.listaVertice.Count; i++)
             {
                 if (this.listaVertice[i].Nome == v1.Nome)
@@ -60,9 +68,9 @@ namespace _2017_04_17_Algor_Grafos
         {
             string str = "";
 
-            for (int i = 0; i < conteudoArquivo.Length; i++)
+            for (int i = 1; i < this.conteudoArquivo.Length; i++)
             {
-                str = conteudoArquivo[i];
+                str += this.conteudoArquivo[i] + "\n";
             }
 
             return str;

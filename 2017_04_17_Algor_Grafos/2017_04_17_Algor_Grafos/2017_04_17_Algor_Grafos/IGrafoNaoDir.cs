@@ -20,7 +20,7 @@ namespace _2017_04_17_Algor_Grafos
 
         bool IsNulo();
 
-        bool isCompleto();
+        bool IsCompleto();
 
         bool IsConexo();
 

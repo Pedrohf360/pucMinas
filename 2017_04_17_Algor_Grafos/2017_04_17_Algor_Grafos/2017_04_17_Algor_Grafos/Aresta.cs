@@ -45,5 +45,25 @@ namespace _2017_04_17_Algor_Grafos
         public int Direcao { get => direcao; set => direcao = value; }
         internal Vertice VertA { get => vertA; set => vertA = value; }
         internal Vertice VertB { get => vertB; set => vertB = value; }
+
+        public override string ToString()
+        {
+            // É direcionada
+            if (this.direcao != 0)
+            {
+                if (this.direcao == 1)
+                {
+                    return this.vertA.Nome + "->" + this.vertB.Nome;
+                }
+                else
+                {
+                    return this.vertB.Nome + "->" + this.vertB.Nome;
+                }
+            }
+            else
+            {
+                return this.vertA.Nome + "--" + this.vertB.Nome;
+            }
+        }
     }
 }

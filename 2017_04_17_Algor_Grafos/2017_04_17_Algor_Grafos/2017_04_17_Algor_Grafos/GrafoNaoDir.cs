@@ -26,6 +26,7 @@ namespace _2017_04_17_Algor_Grafos
             for (int i = 1; i < this.ConteudoArquivo.Length; i++)
             {
                 conteudoLinha = this.ConteudoArquivo[i].Split(';');
+                if (conteudoLinha[0] == "") continue;
                 novoVertA = new Vertice(conteudoLinha[0]);
                 novoVertB = new Vertice(conteudoLinha[1]);
 
@@ -71,17 +72,36 @@ namespace _2017_04_17_Algor_Grafos
 
         public int GetGrau(Vertice v1)
         {
+            v1 = ProcurarVertice(v1);
+
+            if (v1 == null)
+            {
+                return -1;
+            }
+
             return v1.Aresta.Count;
         }
 
         public bool IsIsolado(Vertice v1)
         {
+            if (this.ProcurarVertice(v1) == null)
+            {
+                return false;
+            }
+
             return v1.Adjacente.Count == 0;
         }
 
         public bool IsPendente(Vertice v1)
         {
-            return v1.Adjacente.Count == 1;
+            v1 = ProcurarVertice(v1);
+
+            if (v1 == null)
+            {
+                return false;
+            }
+
+            return this.GetGrau(v1) == 1;
         }
 
         public bool IsRegular()
@@ -112,13 +132,76 @@ namespace _2017_04_17_Algor_Grafos
             return true;
         }
 
-        public bool isCompleto()
+        public bool IsCompleto()
         {
-            
+            for (int i = 0; i < this.ListaVertice.Count; i++)
+            {
+                for (int j = 0; j < this.ListaVertice.Count; j++)
+                {
+                    if (j == i)
+                        continue;
+                    if (!this.IsAdjacente(this.ListaVertice[i], this.ListaVertice[j]))
+                    {
+                        return false;
+                    }
+                }
+            }
+
+            return true;
+        }
+
+        // ESTE TRATAMENTO DEVE SER FEITO UMA ÚNICA VEZ QUANDO O CLIENTE ESCOLHER A OPÇÃO DE OBTER CAMINHO
+        //// Os vértices v1 e v2 devem existir no grafo.
+        //if (v1 == null)
+        //{
+        //    return null;
+        //}
+
+        //v2 = ProcurarVertice(v2);
+
+        //if (v2 == null)
+        //{
+        //    return null;
+        //}
+
+        /// <summary>
+        /// Retorna "Null" se não houver caminho possível.
+        /// </summary>
+        /// <returns></returns>
+        public string GetCaminho(Vertice origem, Vertice vertAux, Vertice destino, List<String> caminho, int index, List<Vertice> visitados)
+        {
+            Aresta arestaAux;
+
+            vertAux = origem;
+            arestaAux = vertAux.GetArestaLigacao(destino);
+            if (arestaAux.VertA != destino && arestaAux.VertB != destino)
+            {
+                if (arestaAux.VertA != vertAux)
+                {
+                    vertAux = arestaAux.VertA;
+                } else
+                {
+                    vertAux = arestaAux.VertB;
+                }
+
+            } else
+            {
+                return arestaAux.ToString();
+            }
+
+            // Regra de formação
+            GetCaminho(vertAux, null, destino, caminho, null);
+
+            caminho.Add(arestaAux.ToString());
+
+            return arestaAux.ToString();
         }
 
         public bool IsConexo()
         {
+            List<string> caminho = new List<string>();
+            this.GetCaminho(this.ListaVertice[0], null, this.ListaVertice[3], caminho);
+
             return true;
         }
 
