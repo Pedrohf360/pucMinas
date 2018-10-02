@@ -1,30 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
-namespace practisingLambda_Linq
+namespace WindowsFormsApplication1
 {
-    class Program
+    static class Program
     {
-        static T DoAnythingWith2params<T>(ref T a, T b, Func<T, T, T> myDelegate)
+        /// <summary>
+        /// The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
         {
-            return myDelegate(a,b);
-        }
-
-        static void Main(string[] args)
-        {
-            Func<int, int, int> sum = (a, b) => a + b;
-            //Console.WriteLine("Expressing literally: {0}", sum(3, 2));
-
-            Func<double, double> squareAreaCalc = (side) => side * side;
-
-            Func<double, double, double> genericOne = (x, y) => (x + x) * y;
-
-            Console.WriteLine("Calling a method: {0}", squareAreaCalc(2.2));
-
-            Console.ReadKey();
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
         }
     }
 }
